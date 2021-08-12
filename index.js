@@ -87,10 +87,14 @@ ans: "Harry",
 
 function welcome(){
   var name = readlineSync.question("Hello there! What's your name?\n")
-  console.log(`Hey ${name}, Welcome to PotterHead quiz show!!!`)
+  console.log(`\nHey ${name}, Welcome to PotterHead quiz show!!!`)
+  console.log("\n-----*******-----")
   console.log(chalk.bold("Here are the RULES:"))
-  console.log("There will be 3 rounds. You should have atleast 3 marks at the end of first round to qualify for second and 6 at end of 2nd round to qualify for 3rd round")
-  console.log("If you answer correctly you will receive one point, if it is wrong one mark will be DEDUCTED. If you don't know the answer and don't want to get the marks deducted write IDK.")
+  console.log("\n - There will be 3 rounds.")
+  console.log("\n - You should have atleast 3 marks at the end of first round to qualify for second and 6 at end of 2nd round to qualify for 3rd round")
+  console.log("\n - If you answer correctly you will receive one point.")
+  console.log("\n - If it is wrong one mark will be DEDUCTED.") 
+  console.log("\n - If you don't know the answer and don't want to get the marks deducted write IDK.")
   console.log("-----*******-----\n")
 }
 
